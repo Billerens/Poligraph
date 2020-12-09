@@ -3,11 +3,11 @@ import { Route, Switch } from "react-router-dom";
 
 import PageWrapper from "./containers/pageWrapper/PageWrapper";
 
-import Breath from "./views/Breath";
-import Heartbeat from "./views/Hearthbeat";
-import Skin from "./views/Skin";
-import General from "./views/General";
-import Muscles from "./views/Muscles";
+import Breath from "./views/breath/Breath";
+import Heartbeat from "./views/heartbeat/Heartbeat";
+import Skin from "./views/skin/Skin";
+import General from "./views/general/General";
+import Muscles from "./views/muscles/Muscles";
 import NotFound from "./views/NotFound";
 
 function App() {
