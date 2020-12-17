@@ -4,92 +4,6 @@ import { Line } from "react-chartjs-2";
 import { Table } from "antd";
 import InfoButton from "../../components/infoButton/InfoButton";
 
-// const data = {
-//   labels: ["January", "February", "March", "April", "May", "June", "July"],
-//   datasets: [
-//     {
-//       label: "My First dataset",
-//       fill: false,
-//       lineTension: 0.1,
-//       borderColor: `rgba(${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.random() + 0.3})`,
-//       borderCapStyle: "butt",
-//       borderDash: [],
-//       borderDashOffset: 0.0,
-//       borderJoinStyle: "miter",
-//       pointBorderColor: `rgba(${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.random() + 0.3})`,
-//       pointBackgroundColor: "#fff",
-//       pointBorderWidth: 1,
-//       pointHoverRadius: 5,
-//       pointHoverBackgroundColor: `rgba(${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.random() + 0.3})`,
-//       pointHoverBorderColor: `rgba(${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.random() + 0.3})`,
-//       pointHoverBorderWidth: 2,
-//       pointRadius: 1,
-//       pointHitRadius: 10,
-//       data: [
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//       ],
-//     },
-//     {
-//       label: "My Second dataset",
-//       fill: true,
-//       lineTension: 0.1,
-//       borderColor: `rgba(${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.random() + 0.3})`,
-//       borderCapStyle: "butt",
-//       borderDash: [],
-//       borderDashOffset: 0.0,
-//       borderJoinStyle: "miter",
-//       pointBorderColor: `rgba(${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.random() + 0.3})`,
-//       pointBackgroundColor: "#fff",
-//       pointBorderWidth: 10,
-//       pointHoverRadius: 10,
-//       pointHoverBackgroundColor: `rgba(${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.random() + 0.3})`,
-//       pointHoverBorderColor: `rgba(${Math.floor(
-//         Math.random() * 255
-//       )},${Math.floor(Math.random() * 255)},${Math.floor(
-//         Math.random() * 255
-//       )},${Math.random() + 0.3})`,
-//       pointHoverBorderWidth: 2,
-//       pointRadius: 1,
-//       pointHitRadius: 10,
-//       data: [
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//         Math.random() * 100,
-//       ],
-//     },
-//   ],
-// };
-
 const file = {
   heartbeat: [
     {
@@ -298,7 +212,6 @@ const data = {
 
 class Heartbeat extends Component {
   render() {
-    console.log(window.visualViewport);
     return (
       <div className={style.container}>
         <div className={style.header}>
